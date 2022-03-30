@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 128, 0, 0.192);
+    font: normal 1em arial, helvetica, sans-serif;
+}
+
+h1{
+    font-size: 2em;
+    color: darkgreen;
+}
+
+h2{
+   color: darkgreen;
+}
+
+#titulo-principal{
+    background-color: rgba(0, 100, 0, 0.212);
+    color: white;
+    text-align: center;
+}
+
+.topico{
+    background-color: rgba(0, 100, 0, 0.212);
+    color: white;
+    text-align: center;
+}
+
+.basico{
+    color: rgb(252, 252, 19);
+}
+
+.intermediario{
+    color: orange;
+}
+
+.avancado{
+    color: red;
+}
+.destaque{
+    font-style: italic;
+}
