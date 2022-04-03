@@ -7,16 +7,24 @@
     <title>Document</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover; 
+            background-attachment: fixed;*/
+
+            /*shorthand - background
+            color > image > position > repeat > [size-não funciona no chrome] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             box-shadow:  5px 5px 8px rgba(0, 0, 0, 0.308);
@@ -26,8 +34,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus corrupti nihil itaque mollitia exercitationem natus quos commodi autem distinctio doloribus, dolores accusantium est illum soluta, eligendi expedita tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde sapiente sint quasi debitis tenetur harum corrupti ipsam ullam laudantium ut labore eligendi voluptatem reiciendis consequuntur, assumenda laborum sit dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, odio exercitationem eum laboriosam alias dolores corrupti nesciunt voluptatem. Doloremque quam libero nisi molestiae magni tempora eum rem maxime modi qui.
-        </quae></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus corrupti nihil itaque mollitia exercitationem natus quos commodi autem distinctio doloribus, dolores accusantium est illum soluta, eligendi expedita tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde sapiente sint quasi debitis tenetur harum corrupti ipsam ullam laudantium ut labore eligendi voluptatem reiciendis consequuntur, assumenda laborum sit dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, odio exercitationem eum laboriosam alias dolores corrupti nesciunt voluptatem. Doloremque quam libero nisi molestiae magni tempora eum rem maxime modi qui.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus corrupti nihil itaque mollitia exercitationem natus quos commodi autem distinctio doloribus, dolores accusantium est illum soluta, eligendi expedita tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde sapiente sint quasi debitis tenetur harum corrupti ipsam ullam laudantium ut labore eligendi voluptatem reiciendis consequuntur, assumenda laborum sit dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, odio exercitationem eum laboriosam alias dolores corrupti nesciunt voluptatem. Doloremque quam libero nisi molestiae magni tempora eum rem maxime modi qui.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus corrupti nihil itaque mollitia exercitationem natus quos commodi autem distinctio doloribus, dolores accusantium est illum soluta, eligendi expedita tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde sapiente sint quasi debitis tenetur harum corrupti ipsam ullam laudantium ut labore eligendi voluptatem reiciendis consequuntur, assumenda laborum sit dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, odio exercitationem eum laboriosam alias dolores corrupti nesciunt voluptatem. Doloremque quam libero nisi molestiae magni tempora eum rem maxime modi qui.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus corrupti nihil itaque mollitia exercitationem natus quos commodi autem distinctio doloribus, dolores accusantium est illum soluta, eligendi expedita tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde sapiente sint quasi debitis tenetur harum corrupti ipsam ullam laudantium ut labore eligendi voluptatem reiciendis consequuntur, assumenda laborum sit dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, odio exercitationem eum laboriosam alias dolores corrupti nesciunt voluptatem. Doloremque quam libero nisi molestiae magni tempora eum rem maxime modi qui.</p>
     </main>
 </body>
 </html>
