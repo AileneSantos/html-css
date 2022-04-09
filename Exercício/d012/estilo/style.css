@@ -82,14 +82,13 @@ section.imagem > p{
 }
 
 section#img1 {
-    background-image: url('../imagens/background001.jpg');
-    background-position: right center;
+    background-image: url('../imagens/jay-mantri-TFyi0QOx08c-unsplash.jpg');
+    background-position: right right;
 }
 
 section#img2{
-    background-image:url('../imagens/background002.jpg');
+    background-image: url('../imagens/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg');
 }
-
 footer{
     background-color: black;
     color:white;
